@@ -7,5 +7,7 @@ YouTubeAPI-v1
 ---->("https://")
 ---->DB stores the videoId,titlem,descroption and publishedAt data from the youtubeAPI
 
+---->API endpoint(https:localhost/api/videos/?page=)
+
 ->fetch module pings the youtube DATA API every x seconds and store the new (distinct results in the db)
 
